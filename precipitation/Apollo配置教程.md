@@ -180,7 +180,7 @@ update ApolloPortalDB.ServerConfig set value='keanonline,lejiaonline,leonline,on
 4. 进入管理页面后，右上角没有红色弹窗，表示没有异常，如有异常到`/opt/logs/portal/`看报错信息
 5. 第四步，没有问题，就基本上apollo搭建成功了
 
-![image-20190412162718437](/Users/lcp/Desktop/image-20190412162718437.png)
+
 
 ##### 生产应用接入方式
 
