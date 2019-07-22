@@ -1,4 +1,4 @@
- <center>Linux命令笔记</center>
+ < center>Linux命令笔记< /center>
 
 
 ### 查看每个文件大小
