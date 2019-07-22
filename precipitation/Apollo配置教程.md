@@ -1,4 +1,4 @@
-# 			Apollo升级方案
+# 			Apollo配置教程
 
 ### 一、Apollo
 
@@ -252,11 +252,11 @@ apollo.meta=http://120.79.232.74:8080
 
 ### 五、踩坑总结
 
-#####第一个坑
+##### 第一个坑
 
 在搭建环境时，注意⚠️服务器是否开放制定环境的端口号
 
-#####第二个坑
+##### 第二个坑
 
 `Apollo`不支持很多环境，目前只支持`LOCAL, DEV, FWS, FAT, UAT, LPT, PRO, TOOLS`
 
@@ -266,11 +266,11 @@ apollo.meta=http://120.79.232.74:8080
 
 ​	涉及到的类有：`Env`,`EnvUtils#transformEnv`,`LegacyMetaServerProvider#initialize`
 
-#####第三个坑
+##### 第三个坑
 
 `apollo.meta=http://119.23.240.225:6060`这个地址一定要跟`env=dev`对应上
 
-#####第四个坑
+##### 第四个坑
 
 本地环境修改配置后，会自动重启服务器，热部署是罪魁祸首：
 
@@ -281,7 +281,7 @@ apollo.meta=http://120.79.232.74:8080
 </dependency>
 ````
 
-#####第五个坑
+##### 第五个坑
 
 单机多环境部署时，要注意内存是否足够，因为我在测试环境【内存配置：4GB】部署五个环境，启动了11个`java`应用，内存不足会将其他`java`应用`kill`掉，替换新的`java`应用.
 
@@ -289,9 +289,9 @@ apollo.meta=http://120.79.232.74:8080
 
 查看所有环境是否全部启动，可查看端口号：`netstat -nlpt`
 
-#####第六个坑
+##### 第六个坑
 
-在`java`应用中查看是否成功连接上`Apollo`，是否可实时更新配置：
+ 在`java`应用中查看是否成功连接上`Apollo`，是否可实时更新配置：
 
 方法一：
 
@@ -314,7 +314,7 @@ c.c.f.apollo.core.MetaDomainConsts:93 ## Located meta server address http://120.
 [Apollo-Config-1] ## INFO  ## c.c.f.a.s.p.AutoUpdateConfigChangeListener:93 ## Auto update apollo changed value successfully, new value: 66666666, key: test, beanName: javaConfigBean, field: com.tongcaipay.manage.config.TestJavaConfigBean.name
 ```
 
-##### 第七个坑
+#####  第七个坑
 
 有时候在停`apollo`应用程序时，个人建议不要执行`shutdown.sh`，直接`kill -9 `，有时候你执行那个脚本后，会出现诡异事件，`eureka`连接不上的问题。
 
