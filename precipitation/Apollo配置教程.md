@@ -18,7 +18,7 @@
 1. 单机多环境部署：将`dev`、`letest`、`photondev`、`photontest`、`test`部署到一台机器；
 2. 数据库部署：每套环境一个`apolloconfigdb`数据库，可共用一个`apolloportaldb`数据库
 
-#####设置每个环境端口号：
+##### 设置每个环境端口号：
 
 1. dev:                   `config-8080,admin-8090,portal-8087`
 2. test:                   `config-8081,admin-8091,portal-8087`
@@ -51,7 +51,7 @@ spring.datasource.password = root
 4. photontest:`LOG_DIR=/opt/logs/config-photontest、LOG_DIR=/opt/logs/admin-photontest`
 5. letest:`LOG_DIR=/opt/logs/config-letest、LOG_DIR=/opt/logs/admin-letest`
 
-#####添加eureka注册地址
+##### 添加eureka注册地址
 
 在`admin`和`config`的`startup.sh`中添加最好添加在其他`export JAVA_OPTS`的下面:
 
@@ -80,7 +80,7 @@ export JAVA_OPTS="$JAVA_OPTS -Deureka.instance.ip-address=120.79.232.74"
 
 ### 三、生产环境部署
 
-#####设置每个环境ip，如下：
+##### 设置每个环境ip，如下：
 
 1. keanonline:1.1.1.1，连接对应数据库：keanonline_apolloconfigdb
 2. lejiaonline:2.2.2.2，连接对应数据库：lejiaonline_apolloconfigdb
@@ -94,17 +94,17 @@ export JAVA_OPTS="$JAVA_OPTS -Deureka.instance.ip-address=120.79.232.74"
 2、使用7.7.7.7服务器部署（portal）包；并且连接apolloportaldb数据库
 ```
 
-#####小结：
+##### 小结：
 
 ​	所有环境需要将admin和config部署到同一台服务器上，并且连接不同数据库；portal包只需要一台服务器；
 
-#####上传文件并解压
+##### 上传文件并解压
 
 ```
 将apollo-configservice-1.0.0-github.zip、apollo-adminservice-1.0.0-github.zip、apollo-portal-1.0.0-github.zip上传到对应的服务器
 ```
 
-#####修改数据库连接
+##### 修改数据库连接
 
 admin和config数据库配置修改：
 
@@ -235,7 +235,7 @@ update sdbonline_ApolloConfigDB.ServerConfig set value='true' where `key`='confi
 
 内容为：`app.id=tc-manage`，`app.id`是在`apollo`管理页面上创建的应用ID
 
-####4.应用启动配置方式
+#### 4.应用启动配置方式
 
 方式一：
 
