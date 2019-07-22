@@ -1,4 +1,4 @@
-# < center>Linux命令笔记< /center>
+# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Linux命令笔记
 
 
 ### 查看每个文件大小
