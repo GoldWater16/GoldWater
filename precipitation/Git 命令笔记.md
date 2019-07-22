@@ -1,6 +1,6 @@
 # Git 命令笔记
 
-###查看Git配置信息
+### 查看Git配置信息
 
 `git config -l`
 
