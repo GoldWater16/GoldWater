@@ -10,4 +10,4 @@
 
 ### 回滚版本
 
-`git reset --hard 137403aeedf44fa3f3ee53c69f591dd2c38c6e06`
+`git reset --hard 版本id`
