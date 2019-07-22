@@ -297,7 +297,7 @@ apollo.meta=http://120.79.232.74:8080
 
 查看是否有你对应的`ip`实例
 
-![image-20190412173405177](/Users/lcp/Library/Application Support/typora-user-images/image-20190412173405177.png)
+https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/image-20190412173405177.png
 
 方法二：
 
