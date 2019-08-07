@@ -5,7 +5,7 @@
 ### JVM内存结构的面试题
 
 #### 1、JVM管理的内存结构是怎么样的？
-**答：**如图：
+**答：** 如图：
 
 ![images](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/多线程并发安全原理图片/JVM内存结构图.png)
 
