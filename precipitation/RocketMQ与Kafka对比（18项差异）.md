@@ -171,6 +171,8 @@
 
 ### <a id="title19">ActiveMQ、RabbitMQ、RocketMQ、kafka的区别</a>
 
-[![img](https://oscimg.oschina.net/itags/f8acc0ba02b1b5491e9d1eac9ccfc006a61cb439.png)](https://www.cnblogs.com/chanshuyi/p/message_queue_serial_02_how_to_select.html)
+![](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/ActiveMQ%E3%80%81RabbitMQ%E3%80%81RocketMQ%E3%80%81kafka%E7%9A%84%E5%8C%BA%E5%88%AB.png?raw=true)
+
+
 
 本文转载自：https://my.oschina.net/yjwxh/blog/412093
