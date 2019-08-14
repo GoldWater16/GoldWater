@@ -1,5 +1,9 @@
 # Integer面试连环炮以及源码分析
 
+##### 场景：
+
+&emsp;&emsp;昨天有位朋友去面试，我问他面试问了哪些问题，其中问了Integer相关的问题，以下就是面试官问的问题，还有一些是我对此做了扩展。
+
 ##### 问：两个new Integer 128相等吗？
 
 答：不。因为Integer缓存池默认是-127-128；
@@ -8,6 +12,10 @@
 
 答：可以。使用`-Djava.lang.Integer.IntegerCache.high=300`设置Integer缓存池大小
 
+##### 问：Integer缓存机制使用了哪种设计模式？
+
+答：亨元模式；
+
 ##### 问：Integer是如何获取你设置的缓存池大小？
 
 答：`sun.misc.VM.getSavedProperty("java.lang.Integer.IntegerCache.high");`
@@ -15,6 +23,44 @@
 ##### 问：`sun.misc.VM.getSavedProperty`和`System.getProperty`有啥区别？
 
 答：唯一的区别是，`System.getProperty`只能获取非内部的配置信息；例如`java.lang.Integer.IntegerCache.high`、`sun.zip.disableMemoryMapping`、`sun.java.launcher.diag`、`sun.cds.enableSharedLookupCache`等不能获取，这些只能使用`sun.misc.VM.getSavedProperty`获取
+
+### `Integer`初始化源码分析：
+
+```java
+private static class IntegerCache {
+    static final int low = -128;
+    static final int high;
+    static final Integer cache[];
+
+    static {
+        // high value may be configured by property
+        int h = 127;
+        String integerCacheHighPropValue =
+            sun.misc.VM.getSavedProperty("java.lang.Integer.IntegerCache.high");
+        if (integerCacheHighPropValue != null) {
+            try {
+                int i = parseInt(integerCacheHighPropValue);
+                i = Math.max(i, 127);
+                // Maximum array size is Integer.MAX_VALUE
+                h = Math.min(i, Integer.MAX_VALUE - (-low) -1);
+            } catch( NumberFormatException nfe) {
+                // If the property cannot be parsed into an int, ignore it.
+            }
+        }
+        high = h;
+
+        cache = new Integer[(high - low) + 1];
+        int j = low;
+        for(int k = 0; k < cache.length; k++)
+            cache[k] = new Integer(j++);
+
+        // range [-128, 127] must be interned (JLS7 5.1.7)
+        assert IntegerCache.high >= 127;
+    }
+
+    private IntegerCache() {}
+}
+```
 
 ### `VM.class`源码分析：
 
