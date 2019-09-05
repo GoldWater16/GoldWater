@@ -4,6 +4,8 @@
 
 [下载地址](https://varaneckas.com/jad/)：https://varaneckas.com/jad/
 
+`mac` 请选择`jad158g.mac.intel`
+
 ##### 2、解压`jad`
 
 在`/usr/local/`路径下创建相关文件夹，例如：`/usr/local/jad/src`
