@@ -161,3 +161,7 @@ G表示移动到文本结尾；
 #### 查询文件名
 
 `find / -name 'redis*'|more`
+
+#### Kibana 排除关键字语法
+
+`*Exception NOT NullPointerException`//查询除了空指针以外的其他异常日志
