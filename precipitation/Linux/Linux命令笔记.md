@@ -165,3 +165,7 @@ G表示移动到文本结尾；
 #### Kibana 排除关键字语法
 
 `*Exception NOT NullPointerException`//查询除了空指针以外的其他异常日志
+
+#### 安装szrz命令
+
+`yum install -y lrzsz`
