@@ -169,3 +169,7 @@ G表示移动到文本结尾；
 #### 安装szrz命令
 
 `yum install -y lrzsz`
+
+#### 将服务器jar包下载到本地
+
+`scp root@1.1.1.1:/app/test/xxx.jar .`
