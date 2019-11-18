@@ -173,3 +173,8 @@ G表示移动到文本结尾；
 #### 将服务器jar包下载到本地
 
 `scp root@1.1.1.1:/app/test/xxx.jar .`
+
+#### 查看docker安装的镜像
+
+`docker images`
+
