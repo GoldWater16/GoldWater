@@ -5,6 +5,12 @@
 
 `du -sh *`
 
+#### 查看历史命令
+
+> history N 显示最近的N条命令，例如history 5
+> history -d N 删除第N条命令，这个N就是前面的编号，例如history -d 990
+> history -c 清空命令历史
+
 #### Mac下su命令提示su:Sorry的解决办法
 
 `sudo su -`
