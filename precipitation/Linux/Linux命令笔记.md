@@ -29,7 +29,7 @@
 
 #### 打开git公钥key
 
-`cat ~/ssh/id_rsa.pub`
+`cat ~/.ssh/id_rsa.pub`
 
 #### 服务器post请求命令：
 
