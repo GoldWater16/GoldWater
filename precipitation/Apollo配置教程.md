@@ -180,7 +180,7 @@ update ApolloPortalDB.ServerConfig set value='keanonline,lejiaonline,leonline,on
 4. 进入管理页面后，右上角没有红色弹窗，表示没有异常，如有异常到`/opt/logs/portal/`看报错信息
 5. 第四步，没有问题，就基本上apollo搭建成功了
 
-![image](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/apollo-1.png)
+![image](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/apollo-1.png?raw=true)
 
 ##### 生产应用接入方式
 
@@ -297,7 +297,7 @@ apollo.meta=http://120.79.232.74:8080
 
 查看是否有你对应的`ip`实例
 
-![image](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/image-20190412173405177.png)
+![image](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/image-20190412173405177.png?raw=true)
 
 方法二：
 
