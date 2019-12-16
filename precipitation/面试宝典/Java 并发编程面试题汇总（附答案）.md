@@ -191,7 +191,7 @@ Future接口表示异步任务，是还没有完成的任务给出的未来结�
 
 **18、你将如何使用thread dump？你将如何分析Thread dump？**
 
-![img](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E7%BA%BF%E7%A8%8B%E7%8A%B6%E6%80%81%E5%9B%BE.png?raw=true)
+![线程状态图](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E7%BA%BF%E7%A8%8B%E7%8A%B6%E6%80%81%E5%9B%BE.png?raw=true)
 
 - **新建状态（New）**
 
@@ -581,7 +581,7 @@ volatile用于多线程环境下的单次操作(单次读或者单次写)。
 
 直接了解的深入一点吧： 
 
-![img](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E7%BA%BF%E7%A8%8B%E7%AD%89%E5%BE%85%E7%8A%B6%E6%80%81%E6%B5%81%E8%BD%AC%E5%9B%BE.png?raw=true)
+![线程等待状态流转图](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E7%BA%BF%E7%A8%8B%E7%AD%89%E5%BE%85%E7%8A%B6%E6%80%81%E6%B5%81%E8%BD%AC%E5%9B%BE.png?raw=true)
 
 在Java中线程的状态一共被分成6种：
 
