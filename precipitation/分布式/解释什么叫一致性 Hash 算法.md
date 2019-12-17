@@ -59,3 +59,5 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 ![一致性Hash算法-images-07](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-07.png?raw=true)
 
 **当然我们也可以发现，一致性 Hash 算法，也只是解决大部分数据的问题。**
+
+> 来自：【自会点代码的大叔】公众号
