@@ -40,7 +40,9 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
 然后对数据 key 进行相同的操作，势必也会落在圈上的某个位置；然后顺时针行走，可以找到某一个 Node，这就是这个 key 要储存的服务器。
 
-![一致性Hash算法-images-04](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-04.png?raw=true) 如果增加一台服务器或者删除一台服务器，只会影响 部分数据。
+![一致性Hash算法-images-04](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-04.png?raw=true) 
+
+如果增加一台服务器或者删除一台服务器，只会影响 部分数据。
 
 ![一致性Hash算法-images-05](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-05.png?raw=true)
 
@@ -60,4 +62,5 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
 **当然我们也可以发现，一致性 Hash 算法，也只是解决大部分数据的问题。**
 
-> 来自：【自会点代码的大叔】公众号
+> ##### 来自：【自会点代码的大叔】公众号
+
