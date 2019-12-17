@@ -16,7 +16,7 @@
 
 hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-01.png)
+![一致性Hash算法-images-01](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-01.png?raw=true)
 
 看起来非常得美好，因为依靠这样的方法，我们可以让数据平均存储到 4 台 Redis 中，当有新的请求过来的时候，我们也可以定位数据会在哪台 Redis 中，这样可以精确地查询到缓存数据。
 
@@ -24,7 +24,7 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
 但是 4 台 Redis 不够了，需要再增加 4 台 Redis ；那么这个求余算法就会变成：hash( key ) % 8 ；
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-02.png)
+![一致性Hash算法-images-02](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-02.png?raw=true)
 
 那么可以想象一下，当前大部分缓存的位置都会是错误的，极端情况下，就会造成 缓存雪崩。
 
@@ -36,13 +36,13 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
 对三台服务器的 IP 或其他关键字进行 hash 后对 2^32 取模，这样势必能落在这个圈上的某个位置，记为 Node1、Node2、Node3。
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-03.png)
+![一致性Hash算法-images-03](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-03.png?raw=true)
 
 然后对数据 key 进行相同的操作，势必也会落在圈上的某个位置；然后顺时针行走，可以找到某一个 Node，这就是这个 key 要储存的服务器。
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-04.png) 如果增加一台服务器或者删除一台服务器，只会影响 部分数据。
+![一致性Hash算法-images-04](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-04.png?raw=true) 如果增加一台服务器或者删除一台服务器，只会影响 部分数据。
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-05.png)
+![一致性Hash算法-images-05](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-05.png?raw=true)
 
 
 
@@ -50,12 +50,12 @@ hash( key ) % N，N 为 Redis 的数量，在这里 N = 4 ;
 
 
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-06.png)
+![一致性Hash算法-images-06](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-06.png?raw=true)
 
 为了解决数据倾斜问题，一致性 Hash 算法提出了【虚拟节点】，会对每一个服务节点计算多个哈希，然后放到圈上的不同位置。
 
 
 
-![img](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/一致性Hash算法-images/一致性Hash算法-images-07.png)
+![一致性Hash算法-images-07](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images/%E4%B8%80%E8%87%B4%E6%80%A7Hash%E7%AE%97%E6%B3%95-images-07.png?raw=true)
 
 **当然我们也可以发现，一致性 Hash 算法，也只是解决大部分数据的问题。**
