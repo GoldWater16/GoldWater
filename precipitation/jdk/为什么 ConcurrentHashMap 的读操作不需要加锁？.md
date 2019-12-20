@@ -172,3 +172,7 @@ static class Node<K,V> implements Map.Entry<K,V> {
 - 在1.8中`ConcurrentHashMap`的`get`操作全程不需要加锁，这也是它比其他并发集合比如`hashtable`、用`Collections.synchronizedMap()`包装的`hashmap`;安全效率高的原因之一。
 - `get`操作全程不需要加锁是因为`Node`的成员`val`是用`volatile`修饰的和数组用`volatile`修饰没有关系。
 - 数组用`volatile`修饰主要是保证在数组扩容的时候保证可见性。
+
+> 作者：上帝爱吃苹果
+>
+> www.cnblogs.com/keeya/p/9632958.html
