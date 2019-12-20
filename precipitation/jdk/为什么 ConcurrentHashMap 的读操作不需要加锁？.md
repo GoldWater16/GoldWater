@@ -14,7 +14,7 @@
 
 
 
-![为什么ConcurrentHashMap的读操作不需要加锁-images-01](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/为什么ConcurrentHashMap的读操作不需要加锁-images/为什么ConcurrentHashMap的读操作不需要加锁-images-01.png)
+![为什么ConcurrentHashMap的读操作不需要加锁-images-01](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%BA%E4%BB%80%E4%B9%88ConcurrentHashMap%E7%9A%84%E8%AF%BB%E6%93%8D%E4%BD%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E5%8A%A0%E9%94%81-images/%E4%B8%BA%E4%BB%80%E4%B9%88ConcurrentHashMap%E7%9A%84%E8%AF%BB%E6%93%8D%E4%BD%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E5%8A%A0%E9%94%81-images-01.png?raw=true)
 
 
 
@@ -75,7 +75,7 @@ public V get(Object key) {
 
 
 
-![为什么ConcurrentHashMap的读操作不需要加锁-images-02](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/为什么ConcurrentHashMap的读操作不需要加锁-images/为什么ConcurrentHashMap的读操作不需要加锁-images-02.png)
+![为什么ConcurrentHashMap的读操作不需要加锁-images-02](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/%E4%B8%BA%E4%BB%80%E4%B9%88ConcurrentHashMap%E7%9A%84%E8%AF%BB%E6%93%8D%E4%BD%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E5%8A%A0%E9%94%81-images/%E4%B8%BA%E4%BB%80%E4%B9%88ConcurrentHashMap%E7%9A%84%E8%AF%BB%E6%93%8D%E4%BD%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E5%8A%A0%E9%94%81-images-02.png?raw=true)
 
 
 
