@@ -184,3 +184,7 @@ G表示移动到文本结尾；
 
 `docker images`
 
+#### 查看第几行日志
+
+`sed -n '100p' /var/member.log //查看第100行日志`
+
