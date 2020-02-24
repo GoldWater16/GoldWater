@@ -188,3 +188,5 @@ G表示移动到文本结尾；
 
 `sed -n '100p' /var/member.log //查看第100行日志`
 
+`sed -n '100,200p' /var/member.log //查看第100至200行日志`
+
