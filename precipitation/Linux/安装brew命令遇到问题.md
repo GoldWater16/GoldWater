@@ -27,7 +27,7 @@ curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection re
 
 `在https://www.ipaddress.com/查询raw.githubusercontent.com的真实IP`。
 
-![image-raw-ip](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images.png/image-raw-ip.png)
+![image-raw-ip](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/image-raw-ip.png?raw=true)
 
 ###### 修改hosts
 
