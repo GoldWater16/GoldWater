@@ -2,19 +2,19 @@
 
 ##### 网络情况：
 
-![网络图](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/zookeeper异常奔溃分析/网络图.png)
+![网络图](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/zookeeper%E5%BC%82%E5%B8%B8%E5%A5%94%E6%BA%83%E5%88%86%E6%9E%90/%E7%BD%91%E7%BB%9C%E5%9B%BE.png?raw=true)
 
 #####  内存情况：
 
-![内存使用情况](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/zookeeper异常奔溃分析/内存使用情况.png)
+![内存使用情况](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/zookeeper%E5%BC%82%E5%B8%B8%E5%A5%94%E6%BA%83%E5%88%86%E6%9E%90/cpu%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5.png?raw=true)
 
 ##### 磁盘使用情况：
 
-![磁盘使用率](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/zookeeper异常奔溃分析/磁盘使用率.png)
+![磁盘使用率](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/zookeeper%E5%BC%82%E5%B8%B8%E5%A5%94%E6%BA%83%E5%88%86%E6%9E%90/%E7%A3%81%E7%9B%98%E4%BD%BF%E7%94%A8%E7%8E%87.png?raw=true)
 
 ##### cpu使用情况：
 
-![cpu使用情况](/Users/lcp/Desktop/HuGoldWater/GoldWater/precipitation/images/zookeeper异常奔溃分析/cpu使用情况.png)
+![cpu使用情况](https://github.com/GoldWater16/GoldWater/blob/master/precipitation/images/zookeeper%E5%BC%82%E5%B8%B8%E5%A5%94%E6%BA%83%E5%88%86%E6%9E%90/%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5.png?raw=true)
 
 故障分析思路(**故障时间`Wed Feb 26 21:28:24 2020`,`zookeeper`版本号3.4.11**)：
 
