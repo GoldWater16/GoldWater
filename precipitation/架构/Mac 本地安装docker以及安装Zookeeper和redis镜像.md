@@ -176,4 +176,17 @@ ad32f95f6882        zookeeper           "/docker-entrypoint.…"   40 minutes ag
 368bfbc94cf9        redis               "docker-entrypoint.s…"   52 minutes ago      Up 52 minutes       0.0.0.0:6379->6379/tcp                                 redis-HuGoldWater
 ```
 
+#### 停止redis进程
+
+```shell
+HuGoldWater:~ lcp$ docker rm 368bfbc94cf9
+368bfbc94cf9
+```
+
+#### 停止zookeeper进程
+
+```shell
+HuGoldWater:~ lcp$ docker rm ad32f95f6882
+ad32f95f6882
+```
 
