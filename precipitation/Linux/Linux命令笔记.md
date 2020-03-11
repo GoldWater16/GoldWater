@@ -190,3 +190,10 @@ G表示移动到文本结尾；
 
 `sed -n '100,200p' /var/member.log //查看第100至200行日志`
 
+#### git回滚上一次提交的代码
+
+`git reset --hard HEAD^`
+
+#### git回滚指定提交ID的代码
+
+``git reset --hard commitID`
