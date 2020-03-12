@@ -196,4 +196,4 @@ G表示移动到文本结尾；
 
 #### git回滚指定提交ID的代码
 
-``git reset --hard commitID`
+`git reset --hard commitID`
