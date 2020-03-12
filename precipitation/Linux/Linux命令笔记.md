@@ -1,5 +1,15 @@
 ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Linux命令笔记
 
+#### 模糊查询redis key
+
+```shell
+SCAN cursor [MATCH pattern] [COUNT count]
+基于游标的迭代器，需要基于上一次的游标延续之前的迭代过程
+以0作为游标开始一次新的迭代，直到命令返回游标0完成一次遍历
+不保证每次执行都返回某个给定数量的元素，支持模糊查询
+一次返回的数量不可控，只能是大概率符号count参数
+eg:scan 0 match member*  count 10
+```
 
 #### 查看每个文件大小
 
@@ -26,10 +36,6 @@
 #### 安装brew命令
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-#### 打开git公钥key
-
-`cat ~/.ssh/id_rsa.pub`
 
 #### 服务器post请求命令：
 
@@ -111,13 +117,12 @@ curl -H 'content-type: application/xml' -d '<soapenv:Envelope xmlns:soapenv="htt
 
 `chmod a+x start.sh`
 
-#### 使用vi在每行前面添加内容：
+#### vi相关命令：
 
-`:%s/^/要添加的内容`
-
-#### 使用vi在每行后面添加内容：
-
-`:%s/$/要添加的内容`
+```
+:%s/^/要添加的内容 //在每行前面添加内容
+:%s/$/要添加的内容 //在每行后面添加内容
+```
 
 #### 移动到文本开头或结尾（适合大范围移动）：
 
@@ -152,17 +157,13 @@ G表示移动到文本结尾；
 
 `grep -o 'method\":\".*\",\"r' egmas1.log >> b.txt`
 
-#### vim：替换method":"开头的关键词：
+#### vim相关命令
 
-`%s/method\":\"//`
-
-#### vim：替换","后面所有的字符串：
-
-`%s/\",\".*//`
-
-#### vim：复制多行数据：
-
-`2,4 copy 5（将2至4行的数据复制到第5行）`
+```shell
+2,4 copy 5//复制多行数据（将2至4行的数据复制到第5行）
+%s/\",\".*// //替换","后面所有的字符串
+%s/method\":\"// //替换method":"开头的关键词
+```
 
 #### 查询文件名
 
@@ -180,9 +181,16 @@ G表示移动到文本结尾；
 
 `scp root@1.1.1.1:/app/test/xxx.jar .`
 
-#### 查看docker安装的镜像
+#### docker相关命令
 
-`docker images`
+```shell
+docker images//查看docker安装的镜像
+docker ps//查看docker进程
+docker exec -it redis /bin/bash(进入之后输入命令redis-cli)//连接redis服务
+docker restart containerID//重启容器
+docker run -d -p 2181:2181 -v /opt/docker/zookeeper/data/:/data/ --name=zookeeper --privileged=true zookeeper//运行zookeeper容器
+docker run -itd --name redis -p 6379:6379 redis//运行redis容器
+```
 
 #### 查看第几行日志
 
@@ -190,10 +198,10 @@ G表示移动到文本结尾；
 
 `sed -n '100,200p' /var/member.log //查看第100至200行日志`
 
-#### git回滚上一次提交的代码
+#### git相关命令
 
-`git reset --hard HEAD^`
-
-#### git回滚指定提交ID的代码
-
-`git reset --hard commitID`
+```shell
+git reset --hard commitID//git回滚指定提交ID的代码
+git reset --hard HEAD^//git回滚上一次提交的代码
+cat ~/.ssh/id_rsa.pub //打开git公钥key
+```
