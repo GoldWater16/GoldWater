@@ -187,6 +187,7 @@ G表示移动到文本结尾；
 ```shell
 docker images//查看docker安装的镜像
 docker ps//查看docker进程
+docker exec 容器名(eg：redis) -i //查看容器id
 docker exec -it redis /bin/bash(进入之后输入命令redis-cli)//连接redis服务
 docker restart containerID//重启容器
 docker run -d -p 2181:2181 -v /opt/docker/zookeeper/data/:/data/ --name=zookeeper --privileged=true zookeeper//运行zookeeper容器
