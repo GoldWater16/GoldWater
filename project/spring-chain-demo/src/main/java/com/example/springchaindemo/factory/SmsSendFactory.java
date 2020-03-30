@@ -1,6 +1,6 @@
 package com.example.springchaindemo.factory;
 
-import com.example.springchaindemo.chain.Filter;
+import com.example.springchaindemo.chain.sms.Filter;
 import com.example.springchaindemo.entity.SmsDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

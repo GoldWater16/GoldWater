@@ -1,4 +1,4 @@
-package com.example.springchaindemo.chain;
+package com.example.springchaindemo.chain.sms;
 
 import com.example.springchaindemo.entity.SmsDTO;
 import org.springframework.beans.factory.annotation.Autowired;
