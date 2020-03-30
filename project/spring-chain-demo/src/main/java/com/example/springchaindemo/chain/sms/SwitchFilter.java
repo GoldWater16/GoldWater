@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * @projectName: spring-chain-demo
  * @className: SwitchFilter
- * @description:
+ * @description:短信发送开关
  * @author: HuGoldWater
  * @create: 2020-03-30 15:33
  **/

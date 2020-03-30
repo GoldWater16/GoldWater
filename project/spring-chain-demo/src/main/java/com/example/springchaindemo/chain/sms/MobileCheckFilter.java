@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * @projectName: spring-chain-demo
  * @className: MobileCheckFilter
- * @description:
+ * @description:手机号格式校验
  * @author: HuGoldWater
  * @create: 2020-03-30 15:43
  **/

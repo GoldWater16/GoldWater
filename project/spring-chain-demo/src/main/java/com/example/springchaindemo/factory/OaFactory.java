@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @projectName: spring-chain-demo
  * @className: OaFactory
- * @description:
+ * @description:OA审批工厂
  * @author: HuGoldWater
  * @create: 2020-03-30 18:05
  **/

@@ -3,7 +3,7 @@ package com.example.springchaindemo.chain.oa;
 /**
  * @projectName: spring-chain-demo
  * @className: ProcessChain
- * @description:
+ * @description:抽象审批类
  * @author: HuGoldWater
  * @create: 2020-03-30 17:36
  **/

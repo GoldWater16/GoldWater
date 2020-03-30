@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @projectName: spring-chain-demo
  * @className: ProcessController
- * @description:
+ * @description:OA审批测试类
  * @author: HuGoldWater
  * @create: 2020-03-30 17:52
  **/
@@ -21,6 +21,6 @@ public class ProcessController {
 
     @GetMapping("/process")
     public void process(){
-        oaFactory.doProcess(LeaderEnum.TEAM_LEADER);
+        oaFactory.doProcess(LeaderEnum.SUPERVISOR_LEADER);
     }
 }

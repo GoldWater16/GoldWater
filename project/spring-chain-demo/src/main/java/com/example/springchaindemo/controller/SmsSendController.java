@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Random;
-
 /**
  * @projectName: spring-chain-demo
  * @className: SmsSendController
@@ -34,11 +32,5 @@ public class SmsSendController {
             return "fail";
         }
         return "success";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(Math.random());
-        System.out.println(Math.random());
-        System.out.println((Math.random()*9) * 1000);
     }
 }

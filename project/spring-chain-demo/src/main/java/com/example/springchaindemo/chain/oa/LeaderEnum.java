@@ -3,7 +3,7 @@ package com.example.springchaindemo.chain.oa;
 /**
  * @projectName: spring-chain-demo
  * @className: LeaderEnum
- * @description:
+ * @description:各位领导的枚举类
  * @author: HuGoldWater
  * @create: 2020-03-30 18:09
  **/

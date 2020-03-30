@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @projectName: spring-chain-demo
  * @className: SendLimitFilter
- * @description:
+ * @description:短信发送次数限制
  * @author: HuGoldWater
  * @create: 2020-03-30 15:55
  **/

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * @projectName: spring-chain-demo
  * @className: SupervisorLeaderChain
- * @description:
+ * @description:主管审批类
  * @author: HuGoldWater
  * @create: 2020-03-30 18:17
  **/
