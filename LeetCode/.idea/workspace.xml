@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41906bc5-8cb1-492e-a55e-220b247e94ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/uglynumber/UglyNumberSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/twosum/twoSumSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../precipitation/Linux/Linux命令笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../precipitation/Linux/Linux命令笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../precipitation/知识体系/MySQL技术内幕之InnoDB存储引擎.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../precipitation/知识体系/MySQL技术内幕之InnoDB存储引擎.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.UglyNumberSolution">
+  <component name="RunManager" selected="Application.twoSumSolution">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hjs.App" />
       <module name="LeetCode" />
@@ -103,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twoSumSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjs.twosum.twoSumSolution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjs.twosum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.twoSumSolution" />
         <item itemvalue="Application.UglyNumberSolution" />
         <item itemvalue="Application.ArrayQueue" />
         <item itemvalue="Application.App" />
@@ -135,7 +145,7 @@
       <updated>1551532825398</updated>
       <workItem from="1551532835555" duration="11047000" />
       <workItem from="1551627142902" duration="117000" />
-      <workItem from="1586705297905" duration="369000" />
+      <workItem from="1586705297905" duration="1934000" />
     </task>
     <servers />
   </component>
@@ -143,22 +153,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="345" key="GridCell.Tab.0.bottom" timestamp="1586705789343">
+    <state width="1398" height="345" key="GridCell.Tab.0.bottom" timestamp="1586707689655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586705789343" />
-    <state width="1398" height="345" key="GridCell.Tab.0.center" timestamp="1586705789341">
+    <state width="1398" height="345" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586707689655" />
+    <state width="1398" height="345" key="GridCell.Tab.0.center" timestamp="1586707689653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586705789341" />
-    <state width="1398" height="345" key="GridCell.Tab.0.left" timestamp="1586705789340">
+    <state width="1398" height="345" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586707689653" />
+    <state width="1398" height="345" key="GridCell.Tab.0.left" timestamp="1586707689652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586705789340" />
-    <state width="1398" height="345" key="GridCell.Tab.0.right" timestamp="1586705789342">
+    <state width="1398" height="345" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586707689652" />
+    <state width="1398" height="345" key="GridCell.Tab.0.right" timestamp="1586707689654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586705789342" />
+    <state width="1398" height="345" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586707689654" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586707590425">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586707590425" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1586707590423">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586707590423" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1586707590422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586707590422" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1586707590424">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586707590424" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +198,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hjs/queue/ArrayQueue.java</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hjs/twosum/twoSumSolution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
