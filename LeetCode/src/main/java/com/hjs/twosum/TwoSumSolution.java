@@ -11,7 +11,7 @@ import java.util.Map;
  * @author: HuGoldWater
  * @create: 2020-04-12 23:44
  **/
-public class twoSumSolution {
+public class TwoSumSolution {
 
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();

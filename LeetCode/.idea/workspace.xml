@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41906bc5-8cb1-492e-a55e-220b247e94ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/twosum/twoSumSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/reverse/ReverseSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjs/twosum/twoSumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hjs/twosum/TwoSumSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/practice/FindArrayRepeatElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/practice/JudgeStringIsValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/practice/StackMinValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/practice/StackQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/twosum/twoSumSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hjs/uglynumber/UglyNumberSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hjs/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +69,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.twoSumSolution">
+  <component name="RunManager" selected="Application.ReverseSolution">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hjs.App" />
       <module name="LeetCode" />
@@ -79,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hjs.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjs.reverse.ReverseSolution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjs.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseSolution" />
         <item itemvalue="Application.twoSumSolution" />
         <item itemvalue="Application.UglyNumberSolution" />
         <item itemvalue="Application.ArrayQueue" />
@@ -145,7 +169,7 @@
       <updated>1551532825398</updated>
       <workItem from="1551532835555" duration="11047000" />
       <workItem from="1551627142902" duration="117000" />
-      <workItem from="1586705297905" duration="1934000" />
+      <workItem from="1586705297905" duration="2677000" />
     </task>
     <servers />
   </component>
@@ -153,22 +177,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="345" key="GridCell.Tab.0.bottom" timestamp="1586707689655">
+    <state width="1398" height="122" key="GridCell.Tab.0.bottom" timestamp="1586708812974">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586707689655" />
-    <state width="1398" height="345" key="GridCell.Tab.0.center" timestamp="1586707689653">
+    <state width="1398" height="122" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586708812974" />
+    <state width="1398" height="122" key="GridCell.Tab.0.center" timestamp="1586708812972">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586707689653" />
-    <state width="1398" height="345" key="GridCell.Tab.0.left" timestamp="1586707689652">
+    <state width="1398" height="122" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586708812972" />
+    <state width="1398" height="122" key="GridCell.Tab.0.left" timestamp="1586708812971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586707689652" />
-    <state width="1398" height="345" key="GridCell.Tab.0.right" timestamp="1586707689654">
+    <state width="1398" height="122" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586708812971" />
+    <state width="1398" height="122" key="GridCell.Tab.0.right" timestamp="1586708812973">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="345" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586707689654" />
+    <state width="1398" height="122" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586708812973" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586707590425">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -200,8 +224,8 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hjs/twosum/twoSumSolution.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hjs/twosum/TwoSumSolution.java</url>
+          <line>20</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
