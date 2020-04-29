@@ -201,6 +201,7 @@ docker run -itd --name redis -p 6379:6379 redis//运行redis容器
 ```shell
 git reset --hard commitID//git回滚指定提交ID的代码
 git reset --hard HEAD^//git回滚上一次提交的代码
+git branch -d 分支名 //删除本地分支
 cat ~/.ssh/id_rsa.pub //打开git公钥key
 ```
 
