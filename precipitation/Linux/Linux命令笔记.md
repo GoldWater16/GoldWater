@@ -75,6 +75,10 @@ curl -H 'content-type: application/xml' -d '<soapenv:Envelope xmlns:soapenv="htt
 
 `awk '{print length($0) " " $0}' order.txt | sort -n | cut -c 3- > order1.txt`
 
+或者
+
+`awk '{print length($0) " " $0}' order.txt | sort -n | awk 'sub($1,"")'`
+
 #### 创建文本：
 
 语法：vi 文件名，按i进入插入模式，：wq保存并退出；：q！退出；
