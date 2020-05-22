@@ -1,0 +1,11 @@
+
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Ô¼ÔÌøÿÿÿÿ8‹º¢ø–.
+{
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¬ËÎùüÿÿÿÿ8÷³”ø–.
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Œ‹Ÿôøÿÿÿÿ8ù¿›ø–.
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(áíÄÿ8‹º¢ø–.
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ÐÙµ¬øÿÿÿÿ8‚ß£ø–.
