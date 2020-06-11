@@ -1,5 +1,20 @@
 ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Linux命令笔记
 
+#### 后台运行`shell`脚本
+
+```
+命令：nohup start.sh > trace.log 2>&1 &
+语法：nohup Command [arg...][&]
+操作系统中有三种常用的流：
+0：标准输入流
+1：标准输出流
+2：标准错误流
+”&“的意思是：即使终端关闭，或者电脑死机脚本依然运行
+”2>&1“的意思是：把标准输出流和标准错误流都导入到trace.log文件中
+```
+
+
+
 #### 模糊查询redis key
 
 ```shell
