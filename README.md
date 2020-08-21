@@ -6,3 +6,22 @@
 - 算法动画演示：https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 - leetcode：https://leetcode-cn.com/explore/
 
+### 学习链接：
+
+1. https://bugstack.cn/
+
+2. https://github.com/shishan100/Java-Interview-Advanced
+
+3. https://github.com/gsjqwyl/JavaInterview#3-%E9%98%9F%E5%88%97
+
+4. https://www.cnblogs.com/MonsterJ/p/12615281.html
+
+5. http://blog.itpub.net/7728585/viewspace-2126344/
+
+6. https://github.com/fuzhengwei/CodeGuide/wiki
+
+7. https://doocs.gitee.io/advanced-java/#/
+
+8. http://www.mianshigee.com/job/Java/s2/
+
+   

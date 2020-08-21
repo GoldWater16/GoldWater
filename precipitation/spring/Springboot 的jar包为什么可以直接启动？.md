@@ -79,7 +79,7 @@ Main-Class: org.springframework.boot.loader.JarLauncher
 
 &emsp;&emsp;当执行`java -jar`命令或执行解压后的`org.springframework.boot.loader.JarLauncher`类时，`JarLauncher`会将`BOOT-INF/classes`下的类文件和`BOOT-INF/lib`下依赖的`jar`加入到`classpath`下，最后调用`META-INF`下的`MANIFEST.MF`文件的`Start-Class`属性来完成应用程序的启动，也就是说它是`springboot loader`提供了一套标准用于执行`springboot`打包出来的`JAR`包.
 
-##### `JarLauncher`重点类的介绍：
+##### JarLauncher重点类的介绍：
 
 - `java.util.jar.JarFile`：`JDK`工具类，用于读取`JAR`文件的内容
 
@@ -166,7 +166,7 @@ public class JarLauncher extends ExecutableArchiveLauncher {
 }
 ```
 
-##### `org.springframework.boot.loader.Launcher`
+##### org.springframework.boot.loader.Launcher
 
 ```java
 /**
@@ -204,7 +204,7 @@ public abstract class Launcher {
 
 #### ①注册一个自定义`URL`的`JAR`协议
 
-##### `org.springframework.boot.loader.jar.JarFile#registerUrlProtocolHandler`
+##### org.springframework.boot.loader.jar.JarFile#registerUrlProtocolHandler
 
 `spring boot loader`扩展了`URL`协议，将包名`org.springframework.boot.loader`追加到`java`系统属性`java.protocol.handler.pkgs`中，该包下存在协议对应的`Handler`类，即`org.springframework.boot.loader.jar.Handler`其实现协议为`JAR`.
 
@@ -220,7 +220,7 @@ public static void registerUrlProtocolHandler() {
 }
 ```
 
-##### `org.springframework.boot.loader.jar.JarFile#resetCachedUrlHandlers`
+##### org.springframework.boot.loader.jar.JarFile#resetCachedUrlHandlers
 
 ```java
 /**
@@ -238,7 +238,7 @@ private static void resetCachedUrlHandlers() {
 
 #### ②创建指定`archive`的类加载器
 
-##### `org.springframework.boot.loader.ExecutableArchiveLauncher#getClassPathArchivesIterator`
+##### org.springframework.boot.loader.ExecutableArchiveLauncher#getClassPathArchivesIterator
 
 ```java
 @Override
@@ -253,7 +253,7 @@ protected Iterator<Archive> getClassPathArchivesIterator() throws Exception {
 }
 ```
 
-##### `org.springframework.boot.loader.Launcher#createClassLoader(java.util.Iterator<org.springframework.boot.loader.archive.Archive>)`
+##### org.springframework.boot.loader.Launcher#createClassLoader(java.util.Iterator<org.springframework.boot.loader.archive.Archive>)
 
 ```java
 /**
@@ -274,7 +274,7 @@ protected ClassLoader createClassLoader(Iterator<Archive> archives) throws Excep
 }
 ```
 
-##### `org.springframework.boot.loader.Launcher#createClassLoader(java.util.Iterator<org.springframework.boot.loader.archive.Archive>)`
+##### org.springframework.boot.loader.Launcher#createClassLoader(java.util.Iterator<org.springframework.boot.loader.archive.Archive>)
 
 ```java
 /**
@@ -336,7 +336,7 @@ protected String getMainClass() throws Exception {
 	}
 ```
 
-##### `org.springframework.boot.loader.MainMethodRunner`
+##### org.springframework.boot.loader.MainMethodRunner
 
 ```java
 /**
@@ -382,7 +382,7 @@ public class MainMethodRunner {
 
 &emsp;&emsp;在`springboot2`中，`LaunchedURLClassLoader`自定义类加载器继承`URLClassLoader`，重写了`loadClass`方法；在`JDK`里面，`JAR`的资源分隔符是`!/`，但是`JDK`中只支持一个`!/`，这无法满足`spring boot loader`的需求，so，`springboot`扩展了`JarFile`，从这里可以看到`org.springframework.boot.loader.jar.JarFile#createJarFileFromEntry`,它支持了多个`!/`，表示jar文件嵌套`JAR`文件、`JAR`文件嵌套`Directory`.
 
-##### `org.springframework.boot.loader.LaunchedURLClassLoader`
+##### org.springframework.boot.loader.LaunchedURLClassLoader
 
 ```java
 public class LaunchedURLClassLoader extends URLClassLoader {
@@ -413,7 +413,7 @@ public class LaunchedURLClassLoader extends URLClassLoader {
 }
 ```
 
-##### `org.springframework.boot.loader.LaunchedURLClassLoader#definePackageIfNecessary`
+##### org.springframework.boot.loader.LaunchedURLClassLoader#definePackageIfNecessary
 
 ```java
 /**
