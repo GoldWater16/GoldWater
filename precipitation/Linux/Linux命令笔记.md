@@ -74,6 +74,10 @@ curl -H 'content-type: application/xml' -d '<soapenv:Envelope xmlns:soapenv="htt
 
 `grep -c "00000000000000000000800270819632" EGMAS_RDB_an.txt `
 
+#### 如何使用grep检索.gz包的日志：
+
+`gzip -dc tc-admin.2020-06*log.gz grep 'golden@admin' | grep 'export' > golden.log`
+
 #### 将查询匹配结果放在一个新的文件：
 
 语法：grep 关键字 文件 > test1.txt
