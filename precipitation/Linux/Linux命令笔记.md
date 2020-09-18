@@ -13,8 +13,6 @@
 ”2>&1“的意思是：把标准输出流和标准错误流都导入到trace.log文件中
 ```
 
-
-
 #### 模糊查询redis key
 
 ```shell
@@ -83,6 +81,10 @@ curl -H 'content-type: application/xml' -d '<soapenv:Envelope xmlns:soapenv="htt
 语法：grep 关键字 文件 > test1.txt
 
 `grep  "MEMBER_QUERY_NUMBER_LIMIT" EGMAS_RDB_an.txt > test1.txt`
+
+#### 统计关键词出现的次数：
+
+`grep -o '【DOMAIN-EVENT—BUS】success' photon-ecp.log |wc -l``
 
 #### 排序文件:
 
