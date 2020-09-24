@@ -207,6 +207,49 @@ G表示移动到文本结尾；
 
 `scp root@1.1.1.1:/app/test/xxx.jar .`
 
+#### 定时执行shell脚本
+
+`0 12 * * * /bin/bash /mnt/test_script/del_log.sh >/tmp/crontab.log`
+
+#### 清理日志脚本
+
+```shell
+#!/bin/sh -e
+# 置空前一年以内的日志文件，只置空，不删除
+#source /etc/profile
+path_list=(tc-project-name)
+function clearing_log(){
+  for i in ${path_list[@]}
+  do
+   for ii in `seq 1 365`
+    do
+      get_date=$(date -d "- $ii day" +%Y-%m-%d)
+      path="/tonder/app/$i/logs"
+      echo $i
+      name="$i."$get_date".log"
+      echo $name
+      cd $path
+      echo "当前路径"$(pwd)
+      echo $i
+      if [[  -f "$name"  ]]   #其他服务的日志文件，判断是否存在，存在就清空，不存在什么都不做
+         then
+         echo "">$name
+         echo "$name 文件已清空"
+      else
+         echo "$name 不存在，什么都不做."
+         continue
+      fi
+    done
+  done
+  echo "end"
+}
+
+#调用
+clearing_log
+```
+
+
+
 #### docker相关命令
 
 ```shell
