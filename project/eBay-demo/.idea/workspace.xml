@@ -1,74 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e85e34e-7c20-4371-8126-4e3b7246e1f0" name="Default Changelist" comment="" />
+    <list default="true" id="3d3d51b6-e33f-4c91-9600-c8898d2ffc39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/EBayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/EBeyDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/EBayEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/OAuth2Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/OAuth2Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/OAuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/eBeydemo/EBeyDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>https://apiz.ebay.com/sell/finances/v1/transaction</find>
-      <find>SANDBOX</find>
-      <find>PRODUCTION</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>SANDBOX</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
-  <component name="ProjectId" id="1ZpxESmYJAyB0kzHctzmwS01OEj" />
+  <component name="ProjectId" id="1sA8bGqWcF1lTFvNiaFNVVwuyin" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay" />
-    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EBeyDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eBey-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eBeydemo.EBeyDemoApplication" />
@@ -77,92 +68,19 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e85e34e-7c20-4371-8126-4e3b7246e1f0" name="Default Changelist" comment="" />
-      <created>1564644139852</created>
+      <changelist id="3d3d51b6-e33f-4c91-9600-c8898d2ffc39" name="Default Changelist" comment="" />
+      <created>1620304105960</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564644139852</updated>
-      <workItem from="1564644143124" duration="5194000" />
-      <workItem from="1564995504147" duration="6297000" />
-      <workItem from="1565055061964" duration="3723000" />
-      <workItem from="1565577251027" duration="2186000" />
-      <workItem from="1567851594095" duration="51000" />
-      <workItem from="1571390891174" duration="2051000" />
-      <workItem from="1572919440817" duration="4399000" />
-      <workItem from="1585549726413" duration="674000" />
-      <workItem from="1585557930397" duration="162000" />
+      <updated>1620304105960</updated>
+      <workItem from="1620304111608" duration="1453000" />
     </task>
-    <task id="LOCAL-00001" summary="add">
-      <created>1585557946424</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1585557946424</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="274" y="52" key="CommitChangelistDialog2" timestamp="1585557946315">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="274" y="52" key="CommitChangelistDialog2/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1585557946315" />
-    <state x="144" y="79" key="DiffContextDialog" timestamp="1585549789215">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1585549789215" />
-    <state x="494" y="168" key="RollbackChangesDialog" timestamp="1585549791077">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="494" y="168" key="RollbackChangesDialog/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1585549791077" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585557948265">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1585557948265" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>response.body().string()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+    <option name="version" value="3" />
   </component>
 </project>
