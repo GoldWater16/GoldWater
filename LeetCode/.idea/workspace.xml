@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="41906bc5-8cb1-492e-a55e-220b247e94ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/reverse/LinkedReverseSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/eBay-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project/eBay-demo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +37,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
@@ -47,10 +55,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,13 +68,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.ReverseSolution">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hjs.App" />
+  <component name="RunManager" selected="Application.LinkedReverseSolution">
+    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjs.queue.ArrayQueue" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hjs.*" />
+          <option name="PATTERN" value="com.hjs.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hjs.queue.ArrayQueue" />
+    <configuration name="LinkedReverseSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjs.reverse.LinkedReverseSolution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hjs.queue.*" />
+          <option name="PATTERN" value="com.hjs.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedReverseSolution" />
         <item itemvalue="Application.ReverseSolution" />
         <item itemvalue="Application.twoSumSolution" />
         <item itemvalue="Application.UglyNumberSolution" />
         <item itemvalue="Application.ArrayQueue" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +156,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -159,53 +170,25 @@
       <workItem from="1551532835555" duration="11047000" />
       <workItem from="1551627142902" duration="117000" />
       <workItem from="1586705297905" duration="2937000" />
+      <workItem from="1621428193149" duration="2366000" />
+      <workItem from="1621783417129" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1586744505385">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505385" />
-    <state width="1398" height="122" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586708812974" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1586744505384">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505384" />
-    <state width="1398" height="122" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586708812972" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1586744505383">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505383" />
-    <state width="1398" height="122" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586708812971" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1586744505384">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505384" />
-    <state width="1398" height="122" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586708812973" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586744505388">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505388" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586707590425" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1586744505387">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505387" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586707590423" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1586744505386">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505386" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586707590422" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1586744505388">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-310.-1080.1920.1080@0.0.1440.900" timestamp="1586744505388" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586707590424" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,6 +207,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hjs/twosum/TwoSumSolution.java</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hjs/ListNode.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hjs/reverse/LinkedReverseSolution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

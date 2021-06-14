@@ -5,26 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d3d51b6-e33f-4c91-9600-c8898d2ffc39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/EBayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/EBeyDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/EBayEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/OAuth2Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/OAuth2Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/OAuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/TokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/eBeydemo/ebay/model/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/eBeydemo/EBeyDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620304105960</updated>
-      <workItem from="1620304111608" duration="1453000" />
+      <workItem from="1620304111608" duration="1701000" />
     </task>
     <servers />
   </component>
