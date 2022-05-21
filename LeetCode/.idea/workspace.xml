@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41906bc5-8cb1-492e-a55e-220b247e94ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hjs/reverse/LinkedReverseSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/eBay-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project/eBay-demo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +168,7 @@
       <workItem from="1586705297905" duration="2937000" />
       <workItem from="1621428193149" duration="2366000" />
       <workItem from="1621783417129" duration="9000" />
+      <workItem from="1625154741560" duration="200000" />
     </task>
     <servers />
   </component>
